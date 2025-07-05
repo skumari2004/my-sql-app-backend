@@ -13,7 +13,7 @@ const port = process.env.PORT || 3001; // Use the provided port or default to 30
 // Middleware
 app.use(cors()); // Enable CORS for all routes, allowing frontend to make requests
 const allowedOrigins = [
-  'https://sqlchatbotnew.netlify.app/', // your deployed frontend
+  'https://sqlchatbotnew.netlify.app', // your deployed frontend
   'http://localhost:5173',             // local dev
 ];
 app.use(cors({
